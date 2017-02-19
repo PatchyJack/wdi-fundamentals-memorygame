@@ -6,3 +6,9 @@ var cardThree = "queen";
 var cardFour = "queen";
 
 // First edit from instructions
+
+if (cardTwo === cardFour) {
+	alert("You found a match!");
+} else {
+	alert("Sorry, try again.")
+};
