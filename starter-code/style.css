@@ -86,3 +86,52 @@ img {
   width:150px;
   background-color:#fff;
 }
+
+@media all and (max-width:800px) {
+  p {
+    max-width: 480px;
+    margin-bottom: 30px
+  }
+  .board {
+    margin-bottom: 50px;
+  }
+  .card {
+    height: 100px;
+    width: 75px;
+    border: 1px solid black;
+    background: #ffd750;
+    border-radius: 10px;
+    float: left;
+    margin: 40px 14%;
+    margin-bottom: 0px;
+  }
+  img {
+    height: 100px;
+    width: 75px;
+    background-color: #fff;
+  }
+}
+
+@media all and (max-width:480px) {
+  p {
+    max-width: 480px;
+    margin-bottom: 30px
+  }
+  .board {
+    margin-bottom: 50px;
+  }
+  .card {
+    height: 100px;
+    width: 75px;
+    border: 1px solid black;
+    background: #ffd750;
+    border-radius: 10px;
+    float: left;
+    margin: 40px 8%;
+  }
+  img {
+    height: 100px;
+    width: 75px;
+    background-color: none;
+  }
+}
